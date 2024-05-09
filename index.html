@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assests/css/style.css">
+    <script src="./assests/js/app.js" defer></script>
+</head>
+
+<body>
+    <div class="conntainer">
+        <div>
+            <p class="mobile">plus petit que 768px</p>
+            <p class="tablet">plus petit que 1024px</p>
+            <p class="desktop">plus grand ou égale a 1024px</p>
+        </div>
+        <div>
+            <p class="mobile">plus petit que 768px</p>
+            <p class="tablet">plus petit que 1024px</p>
+            <p class="desktop">plus grand ou égale a 1024px</p>
+        </div>
+        <div>
+            <p class="mobile">plus petit que 768px</p>
+            <p class="tablet">plus petit que 1024px</p>
+            <p class="desktop">plus grand ou égale a 1024px</p>
+        </div>
+    </div>
+    <picture class="picture">
+        <source media="(min-width:1024px)" srcset="/assests/img/desktop.jpg">
+        <source media="(min-width:768px)" srcset="./assests/img/tablet.jpg">
+        <img src="./assests/img/mobile.jpg" alt="">
+    </picture>
+</body>
+
+</html>

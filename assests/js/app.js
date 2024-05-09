@@ -14,7 +14,7 @@ class Keyboard {
         }
     toHtml() {
         const div = document.createElement('div');
-        div.classList.add('container');
+        div.classList.add('container2');
 
         const entries = Object.entries(this);
          
